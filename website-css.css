@@ -1,0 +1,123 @@
+body {
+	background-image: url(web_bg.png);
+}
+
+#namebg {
+	background-image:url(name_bg.png);
+	background-repeat: no-repeat;
+	width:1335px;
+	height:70px;
+	
+}
+
+JSR {
+	font-size: 270%;
+	letter-spacing: 6px;
+	text-shadow: 3px 2px Black;
+	font-family: cursive;
+	color: Red;
+}
+#icon {
+	width:155px;
+	height:54px;
+	background: url(icon.png);
+}
+
+sm {
+	font-family: papyrus;
+	font-size:80px;
+	color: SlateBlue;
+}
+
+sm2 {
+	font-size:150%;
+	color:yellow;
+	font-family: "Courier New";
+	letter-spacing: 15px;
+}
+sm3 {
+	font-family: Audiowide;
+	font-size:100px;
+	color: Lime;
+	letter-spacing: 8px;
+}
+sma {
+	font-family: "comic sans MS";
+	font-style: bold;
+	font-size: 40px;
+	background-color:blue;
+	color: gold;
+}
+#smaa {
+	background-color: red;
+	color: lightsalmon;
+	animation-name: example;
+	animation-duration: 100s;
+	font-size: 25px;
+	border-style: inset;
+	font-family: "comic sans MS";
+	animation-iteration-count: infinite;
+	
+}
+@keyframes example {
+  0% {background-color: red;}
+  15% {background-color: purple;}
+  29% {background-color: blue;}
+  40% {background-color: darkgreen;}
+  50% {background-color: indigo;}
+  60% {background-color: navy;}
+  70% {background-color: darkpink;}
+  80% {background-color: darkred;}
+  90% {background-color: red;}
+}
+a:visited {
+	color: lightsalmon;
+	text-decoration: none;
+}
+a:link {
+	color: lightsalmon;
+	text-decoration: none;
+}
+
+#benefits {
+	background-color:#ADEFD1FF;
+	color: #00203FFF;
+	font-size:26px;
+	border-style: inset;
+	font-family: Optima;
+}
+#whyuse {
+	background-color:#E69A8DFF;
+	color: #5F4B8BFF;
+	font-size:26px;
+	border-style: inset;
+	font-family: Optima;
+}
+#role {
+	background-color:#3C1053FF;
+	color: #DF6589FF;
+	font-size:26px;
+	border-style: inset;
+	font-family: Optima;
+}
+
+#scroll-container {
+  border-style: inset;
+  overflow: hidden;
+  background-color: white;
+}
+
+#scroll-text {
+  text-align: right;
+  transform: translateX(100%);
+  animation: my-animation 30s linear infinite;
+}
+
+@keyframes my-animation {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
